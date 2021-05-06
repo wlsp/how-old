@@ -14,6 +14,6 @@ console.log("Wow du bist " + input + "Jahre alt!..")
 alert(("Fuck Negro, ") + input + "???!" + " Bist du Scheißealt")
 
 const res = document.getElementById('res')
-res.innerHTML = (input + "!" + " Fuck Negro you OLD my G!")
+res.innerHTML = (input + "!" + " Fuck Negro, you OLD my G!")
 res.style.fontSize = "3em"
 
