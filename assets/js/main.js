@@ -7,7 +7,7 @@ function changeLetterSpacing() {
 }
 
 // window.alert('Hallo Welt')
-let input = window.prompt('Wie alt bist Du)')
+let input = window.prompt('Wie alt bist Du?')
 console.log(input)
 
 console.log("Wow du bist " + input + "Jahre alt!..")
@@ -15,5 +15,5 @@ alert(("Fuck Negro, ") + input + "???!" + " Bist du Scheißealt")
 
 const res = document.getElementById('res')
 res.innerHTML = (input + "!" + " Fuck Negro you OLD my G!")
-res.style.fontSize = "55px"
+res.style.fontSize = "3em"
 
