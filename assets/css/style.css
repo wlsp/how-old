@@ -1,39 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+/* font-family: 'Raleway', sans-serif;  */
 body {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #002a5a;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #DADDD8;
+  font-family: "Raleway", sans-serif;
+  color: #002a5a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #daddd8;
 }
 .one {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 50vw;
-    height: 80vh;
-    border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50vw;
+  height: 80vh;
+  border: 1px solid #fff;
 }
 button {
-    display: block;
-    margin: 10vh auto;
-    background: none;
-    color: #5347ff;
-    border: 2px solid;
-    padding: 1em 2em;
-    font-size: 1.7em;
-    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+  display: block;
+  margin: 10vh auto;
+  background: none;
+  color: #5347ff;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1.7em;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
 }
 
 button:hover {
-    border-color: #f1ff5c;
-    color: white;
-    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
-    transform: translateY(-0.25em);
-    cursor: pointer;
-    
+  border-color: #f1ff5c;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-0.25em);
+  cursor: pointer;
 }
 
 #res {
@@ -67,28 +68,30 @@ button:hover {
   }
 }
 
-@media screen and (max-width:480px) {
-    .one {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 90vw;
-        height: 80vh;
-        border: 1px solid #fff;
-    }
+@media screen and (max-width: 480px) {
+  .one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 95vw;
+    height: 80vh;
+    border: 1px solid #fff;
+  }
 
-    #res {
-        width: 80vw;
-    }
-    button {
-        display: block;
-        margin: 10vh auto;
-        background: none;
-        color: #ff477e;
-        border: 2px solid;
-        padding: 1em 2em;
-        font-size: 1.7em;
-        transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
-    }
+  #res {
+    width: 85vw;
+  }
+  button {
+    display: block;
+    margin: 10vh auto;
+    background: none;
+    color: #ff477e;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1.7em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s,
+      transform 0.25s;
+  }
 }
